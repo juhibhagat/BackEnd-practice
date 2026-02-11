@@ -1,8 +1,9 @@
 {
   "name": "backend-practice",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
+    "start": "node index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,8 @@
     "url": "https://github.com/juhibhagat/BackEnd-practice/issues"
   },
   "homepage": "https://github.com/juhibhagat/BackEnd-practice#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "mongodb": "^7.1.0"
+  }
 }
