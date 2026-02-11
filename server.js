@@ -12,4 +12,12 @@ async function Main() {
     console.log(collection);
 }
 Main()
+.then(console.log)
+.catch(console.error)
+
+
+.finally(()=>{
+    client.close
+})
+
 
