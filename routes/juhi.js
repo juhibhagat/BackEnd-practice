@@ -21,8 +21,7 @@ const { MongoClient } = require("mongodb");
 
 const app = express();
 
-const connectionString = "mongodb://127.0.0.1:27017";
-const client = new MongoClient(connectionString);
+const connectionString = "mongodb://127.0.0.1:27017";const client = new MongoClient(connectionString);
 
 // Home route
 app.get("/", (req, res) => {
